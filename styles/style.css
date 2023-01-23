@@ -1,7 +1,29 @@
+body{
+    font-family: 'EB Garamond', serif;
+    font-family: 'Poppins', sans-serif;
+}
+
 .primarycolor{
     background-color: #B68C5A;
     border: none;
 }
 .secondarycolor{
     color: #707070;
+}
+/* banner */
+.banner{
+    background-image: url('../images/law-justice-concept-dark-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 75vh;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.banner-title{
+    font-family: 'EB Garamond', serif;
+}
+
+.btnhover:hover{
+    background-color: #9b6e3a;
 }
