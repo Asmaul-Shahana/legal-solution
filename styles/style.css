@@ -12,7 +12,7 @@ body{
 }
 /* banner */
 .banner{
-    background-image: url('../images/law-justice-concept-dark-background.jpg');
+    background-image: linear-gradient(0deg,#111111 0%, rgba(17, 17, 17, 0) 100%), url('../images/rectangle6.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 75vh;
@@ -20,10 +20,60 @@ body{
     border-radius: 8px;
 }
 
-.banner-title{
+.title{
     font-family: 'EB Garamond', serif;
 }
 
 .btnhover:hover{
     background-color: #9b6e3a;
+}
+/* Cards */
+.card{
+    border-radius: 0 !important;
+}
+.card-img-top{
+    width: 20% !important;
+    margin: 0 auto;
+}
+#card1{
+    border: none !important;
+}
+#card2{
+    background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
+}
+#card3{
+    border: none !important;
+}
+#card4{
+    border-left: none !important;
+    border-bottom: none !important;
+}
+#card5{
+    border: none !important;
+}
+#card6{
+    border-right: none !important;
+    border-bottom: none !important;
+
+}
+/* carousel */
+
+.carousel-img1{
+    height: 70vh;
+    background: url('../images/rectangler7.png'), url('../images/judges-gavel-scale-justice-black-table.jpg');
+    background-size: cover;
+}
+.carousel-img2{
+    height: 70vh;
+    background: url('../images/rectangler7.png'), url('../images/lady-justice-law-library-concept.jpg');
+    background-size: cover;
+}
+.carousel-img3{
+    height: 70vh;
+    background: url('../images/rectangler7.png'), url('../images/law-justice-concept-dark-background.jpg');
+    background-size: cover;
+}
+.profile-img{
+    border: 4px solid white;
+    border-radius: 50%;
 }
