@@ -24,9 +24,9 @@
     <title>Legal Solution</title>
 </head>
 
-<body class="container-lg mx-auto">
+<body>
     <!-- Header -->
-    <header>
+    <header class="container-lg mx-auto">
         <!-- ---------------navbar-------------- -->
         <nav class="navbar navbar-expand-lg bg-body-light">
             <div class="container-fluid">
@@ -114,10 +114,10 @@
         </section>
     </header>
     <!-- ----------------------------------Main section------------------------------- -->
-    <main>
+    <main class="container-lg mx-auto">
         <!-- ------------Legal practice area----------- -->
-        <section class="mb-5">
-            <div class="text-center pt-5 pb-4">
+        <section class="mt-md-3 mb-3 mb-md-5">
+            <div class="text-center pt-md-5 pb-4">
                 <h1 class="title text-dark pb-3">The Legal Practice Area</h1>
                 <p class="text-secondary w-75 mx-auto">There are several types of law you'll come across during your
                     legal studies.
@@ -207,8 +207,8 @@
             </div>
         </section>
         <!-- ------------What our clients say----------- -->
-        <section class="mt-3 mb-5">
-            <div class="text-center pt-5 pb-4">
+        <section class="mt-md-3 mb-3 mb-md-5">
+            <div class="text-center pt-md-5 pb-4">
                 <h1 class="title text-dark pb-3">What Our Client Say</h1>
                 <p class="text-secondary w-75 mx-auto">We always try to provide the best support and help to our client
                     as quickly as possible. Renowned lawyers have helped many clients for various cases and we like to
@@ -278,7 +278,7 @@
             </div>
         </section>
         <!-- -------------FAQs-------------- -->
-        <section>
+        <section class="mt-md-3 mb-3 mb-md-5">
             <div class="text-center pt-5 pb-4">
                 <h1 class="title text-dark pb-3">Frequently Asked Any Questions</h1>
                 <p class="text-secondary w-75 mx-auto">We always try to provide the best support and help to our client
@@ -297,65 +297,86 @@
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                   <p><strong>Flexbox</strong> provides a one dimensional layout. Where as <strong>Grid</strong> provides multi-dimensional layout.
-                                   </p>
-                                   <p><strong>Flexbox</strong> is not easily managable but <strong>Grid</strong> is easy to manipulate</p>
-                                   <p><strong>Flexbox</strong> focuses on content flow and <strong>Grid</strong> focuses on content placement/layout first.</p>
-                                   <p><strong>Flexbox</strong> is used while designing simple, small layout. <strong>Grid</strong> is used while designing complex layout.</p>
+                                    <p><strong>Flexbox</strong> provides a one dimensional layout. Where as
+                                        <strong>Grid</strong> provides multi-dimensional layout.
+                                    </p>
+                                    <p><strong>Flexbox</strong> is not easily managable but <strong>Grid</strong> is
+                                        easy to manipulate</p>
+                                    <p><strong>Flexbox</strong> focuses on content flow and <strong>Grid</strong>
+                                        focuses on content placement/layout first.</p>
+                                    <p><strong>Flexbox</strong> is used while designing simple, small layout.
+                                        <strong>Grid</strong> is used while designing complex layout.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed title fs-4" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <button class="accordion-button collapsed title fs-4" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                    aria-controls="collapseTwo">
                                     What is the use of Media Query?
                                 </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                   <p> <strong>Media Query</strong> is used to make the website responsive. Media queries allow us to apply CSS styles depending on a device's general type, to create different layouts depending on the size of the viewport. There are some standard breakpoints. We can design our website as mobile-first or desktop-first way depending on the requirements. CSS frameworks like Bootstrap, Tailwind uses mobile-first approach.
-                                </p>
+                                    <p> <strong>Media Query</strong> is used to make the website responsive. Media
+                                        queries allow us to apply CSS styles depending on a device's general type, to
+                                        create different layouts depending on the size of the viewport. There are some
+                                        standard breakpoints. We can design our website as mobile-first or desktop-first
+                                        way depending on the requirements. CSS frameworks like Bootstrap, Tailwind uses
+                                        mobile-first approach.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed title fs-4" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <button class="accordion-button collapsed title fs-4" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">
                                     What is CSS box model? How does it work?
                                 </button>
                             </h2>
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                   <p>The CSS box model is essentially a box that <strong>wraps around</strong> every HTML element. It consists of: margins, borders, padding, and the actual content.</p>
-                                   <ul>
-                                    <li>The <strong>content</strong> area, bounded by the content edge, contains the "real" content of the element, such as text, an image, or a video player.</li>
-                                    <li>The <strong>padding</strong> area, bounded by the padding edge, extends the content area to include the element's padding.</li>
-                                    <li>The <strong>border</strong> area, bounded by the border edge, extends the padding area to include the element's borders.</li>
-                                    <li>The <strong>margin</strong> area, bounded by the margin edge, extends the border area to include an empty area used to separate the element from its neighbors.</li>
-                                   </ul>
+                                    <p>The CSS box model is essentially a box that <strong>wraps around</strong> every
+                                        HTML element. It consists of: margins, borders, padding, and the actual content.
+                                    </p>
+                                    <ul>
+                                        <li>The <strong>content</strong> area, bounded by the content edge, contains the
+                                            "real" content of the element, such as text, an image, or a video player.
+                                        </li>
+                                        <li>The <strong>padding</strong> area, bounded by the padding edge, extends the
+                                            content area to include the element's padding.</li>
+                                        <li>The <strong>border</strong> area, bounded by the border edge, extends the
+                                            padding area to include the element's borders.</li>
+                                        <li>The <strong>margin</strong> area, bounded by the margin edge, extends the
+                                            border area to include an empty area used to separate the element from its
+                                            neighbors.</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingFour">
-                                <button class="accordion-button collapsed title fs-4" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                <button class="accordion-button collapsed title fs-4" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                                    aria-controls="collapseFour">
                                     What is semantic tag?
                                 </button>
                             </h2>
                             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>Semantic tags are those that clearly describe their meaning in a human- and machine-readable way. The reason why it is useful is because-</p>
-                                        <ol>
-                                            <li>It is much <strong>easier to read</strong>.</li>
-                                            <li>It has <strong>greater accessibility</strong>.</li>
-                                            <li>Semantic tags also lead to more <strong>consistent code</strong>.</li>
-                                        </ol>
+                                    <p>Semantic tags are those that clearly describe their meaning in a human- and
+                                        machine-readable way. The reason why it is useful is because-</p>
+                                    <ol>
+                                        <li>It is much <strong>easier to read</strong>.</li>
+                                        <li>It has <strong>greater accessibility</strong>.</li>
+                                        <li>Semantic tags also lead to more <strong>consistent code</strong>.</li>
+                                    </ol>
                                 </div>
                             </div>
                         </div>
@@ -368,10 +389,45 @@
         </section>
     </main>
     <!-- Footer -->
-    <footer>
-
+    <footer class="bg-dark text-center text-lg-start">
+        <div class="container-lg mx-auto py-5">
+            <div class="row py-3 gx-5">
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <img class="mb-4" src="images/group37.png" alt="">
+                    <p class="text-light">Justice is a legal portal for all your law-related needs! We are on a mission to make the legal experience remarkable by making legal services high quality, cost-effective and on-demand for every need. You can ask about anything related to your legal situation.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="mb-md-4 mt-md-3 text-white title fs-5">Useful Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2 mb-md-4"><a href="#" class="link-light text-decoration-none">Home</a></li>
+                        <li class="mb-2 mb-md-4"><a href="#" class="link-light text-decoration-none">About Us</a></li>
+                        <li class="mb-2 mb-md-4"><a href="#" class="link-light text-decoration-none">Cases</a></li>
+                        <li class="mb-2 mb-md-4"><a href="#" class="link-light text-decoration-none">Blog</a></li>
+                        <li class="mb-2 mb-md-4"><a href="#" class="link-light text-decoration-none">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="mb-md-4 mt-md-3 text-white title fs-5">Contact Now</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2 mb-md-4"><a href="#" class="link-light text-decoration-none">555 4th 5t NW, Washington<br>
+                            DC 20530, United States</a></li>
+                        <li class="mb-2 mb-md-4"><a href="#" class="link-light text-decoration-none">+88 01750 000 000<br>
+                            +88 01750 000 000</a></li>
+                        <li class="mb-2 mb-md-4"><a href="#" class="link-light text-decoration-none">info@gmail.com<br>
+                            info@gmail.com</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="mb-md-4 text-light mt-md-3 text-white title fs-5">Subscribe</h5>
+                    <p class="text-light">Subscribe for our latest & Articles. We Won't Give You Spam Mails</p>
+                    <div class="input-group mb-3">
+                        <input type="email" class="form-control" placeholder="Email Address" aria-label="Email Address" aria-describedby="button-addon2">
+                        <button class="btn  btn-secondary primarycolor btnhover p-3" type="button" id="button-addon2"><i class="fa-regular fa-paper-plane w-5"></i></button>
+                      </div>
+                </div>
+            </div>
+        </div>
     </footer>
-
 
     <!-- Bootstrap JS link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
