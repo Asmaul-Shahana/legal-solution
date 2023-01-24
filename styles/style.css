@@ -1,3 +1,4 @@
+/* ---------Common styles---------- */
 body{
     font-family: 'EB Garamond', serif;
     font-family: 'Poppins', sans-serif;
@@ -10,7 +11,11 @@ body{
 .secondarycolor{
     color: #707070;
 }
-/* banner */
+.title{
+    font-family: 'EB Garamond', serif;
+}
+
+/* --------banner-------- */
 .banner{
     background-image: linear-gradient(0deg,#111111 0%, rgba(17, 17, 17, 0) 100%), url('../images/rectangle6.png');
     background-size: cover;
@@ -19,10 +24,10 @@ body{
     width: 100%;
     border-radius: 8px;
 }
-
-.title{
-    font-family: 'EB Garamond', serif;
+.bannertext{
+    color: #E7E7E7;
 }
+
 
 .btnhover:hover{
     background-color: #9b6e3a;
@@ -85,4 +90,7 @@ body{
 .accordion-button:not(.collapsed), .accordion-body {
     background-color: #F3F3F3;
     color: #6c757d;
+}
+.footercolor{
+    color: #CFCFCF;
 }
